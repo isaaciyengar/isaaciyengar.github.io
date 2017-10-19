@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Let's Grab Coffee!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Isaac Iyengar</h1>
+						
+						<p>Full-Stack Developer &thinsp;&minus;&thinsp; Roboticist &thinsp;&minus;&thinsp; Entrepreneur</p>
+						<nav>
+							<ul id="demo">
+								<li><a href="IyengarResume.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
+								<!--<li onclick = "myFunction()"><a href="#" target="_top" class="icon fa-coffee"><span class="label">Meetup</span></a></li>-->
+								<li><a href="https://www.linkedin.com/in/isaaciyengar/" target="_blank" class="icon fa-user"><span class="label">About Me</span></a></li>
+								<li><a href="https://github.com/isaaciyengar" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+								<!--<li onclick="myFunction()"><a href="#" class="icon fa-envelope-o"><span class="label">Contact</span></a></li>-->
+							</ul>
+
+						</nav>
+					</header>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { 
+
+				document.body.className = ''; 
+
+		}
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+
+
+			function myFunction() {
+				document.getElementById("demo").style.display = "none";
+				document.getElementById("email").style.display = "block";
+				//document.getElementById("hello").style.display = "block";
+				//document.getElementById("demo").find('a').toggleClass('icon fa-file-pdf-o icon fa-google')
+
+}
+
+function myFunctionTwo() {
+				document.getElementById("email").style.display = "none";
+				document.getElementById("demo").style.display = "block";
+				//document.getElementById("hello").style.display = "block";
+				//document.getElementById("demo").find('a').toggleClass('icon fa-file-pdf-o icon fa-google')
+
+}
+
+
+		</script>
+	</body>
+</html>
